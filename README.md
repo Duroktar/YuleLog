@@ -6,17 +6,17 @@ YuleLog
 
 Overview
 --------
+Yule Log Fireplace with a retro twist!
 
-Enjoy the classic Yule Log Fireplace with a retro twist!
+ - Restart the snowfall by pressing enter. 
 
-Works best in full-screen but should all line up either way. 
-
-You can restart the snowfall by pressing enter. 
-
-Press `x` to stop the program.
+ - Press `x` to stop the program.
 
 Tested with Python 2.7 and 3.5 on Linux and Windows.
-Made with Asciimatics!
+
+ - **Made with Asciimatics!**
+
+ - **WORKS BEST IN FULL SCREEN**
 
 Installation / Usage
 --------------------
