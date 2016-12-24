@@ -2,6 +2,8 @@ YuleLog
 =======
 **Have yourself a Merry Terminal Christmas**
 
+![logo](https://github.com/Duroktar/YuleLog/blob/master/yule_log/screenshot.png)
+
 Overview
 --------
 
@@ -33,9 +35,13 @@ Or clone the repo:
 Example
 -------
 
-Run from the command line
+Run directly from the command line (thanks to setup.py entry script)
 
     $ YuleLog
+    
+Or as a python module
+
+    $ python -m yule_log
 
 
 
@@ -46,6 +52,10 @@ Version 0.0.1:
 
 
 
-Credits
--------
+Credits & thanks
+----------------
+ - Asciimatics - https://github.com/peterbrittain/asciimatics
+
+Created by
+----------
 Scott Doucet, 2016
