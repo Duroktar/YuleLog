@@ -11,7 +11,7 @@ setup(
     author_email='duroktar@gmail.com',
     description='Terminal based X-Mas Yule Log Fireplace',
     install_requires=["asciimatics"],
-    keywords='christmas yule fireplace,
+    keywords='christmas yule fireplace',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: End Users/Desktop',
