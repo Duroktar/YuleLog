@@ -1,6 +1,6 @@
 YuleLog
 =======
-**Have yourself an Merry Terminal Christmas**
+**Have yourself a Merry Terminal Christmas**
 
 Overview
 --------
@@ -19,8 +19,6 @@ Made with Asciimatics!
 Installation / Usage
 --------------------
 
-Use the windows installer (Made with PyNsist) -
-
 To install use pip:
 
     $ pip install YuleLog
@@ -38,10 +36,6 @@ Example
 Run from the command line
 
     $ YuleLog
-
-Open from the start menu (Windows Installer Version Only)
-
-    TODO: Screenshot
 
 
 
