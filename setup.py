@@ -14,7 +14,7 @@ with open(path.join(SETUP_DIR, 'README.md'), encoding='utf-8') as f:
 
 
 # get the dependencies and installs
-with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
+with open(path.join(SETUP_DIR, 'requirements.txt'), encoding='utf-8') as f:
     all_reqs = f.read().split('\n')
 
 
@@ -33,7 +33,6 @@ setup(
     author_email='duroktar@gmail.com',
     description='Terminal based X-Mas Yule Log Fireplace',
     long_description=long_description,
-    install_requires=["asciimatics"],
     keywords='christmas yule fireplace',
     install_requires=install_requires,
     dependency_links=dependency_links,
