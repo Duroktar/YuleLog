@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='YuleLog',
     version='0.0.1',
-    url='',
+    url='https://github.com/Duroktar/YuleLog',
     packages=['yule_log'],
     package_data = {'yule_log': ['yule_log.ico']},
     license='MIT',
