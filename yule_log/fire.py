@@ -54,7 +54,7 @@ def yule_log(screen):
                    bg=screen.colours >= 256),
               0,
               speed=1,
-            ),
+              transparent=False),
         Print(screen,
               StaticRenderer(images=YULE_LOG),
               x=log_x,
