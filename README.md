@@ -47,6 +47,9 @@ Or as a python module
 
 Changes
 -------
+Version 0.0.3:
+ - Fix broken deps
+ 
 Version 0.0.2:
  - Fixed Fire not showing issue (#1)
  

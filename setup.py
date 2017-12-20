@@ -3,7 +3,7 @@ from codecs import open
 from os import path
 
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 SETUP_DIR = path.abspath(path.dirname(__file__))
 
@@ -19,7 +19,9 @@ with open(path.join(SETUP_DIR, 'requirements.txt'), encoding='utf-8') as f:
 
 
 install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
-dependency_links = [x.strip().replace('git+', '') for x in all_reqs if x.startswith('git+')]
+dependency_links = [x.strip().replace('git+', '')
+                    for x in all_reqs
+                    if x.startswith('git+')]
 
 
 setup(
@@ -27,7 +29,7 @@ setup(
     version=__version__,
     url='https://github.com/Duroktar/YuleLog',
     packages=['yule_log'],
-    package_data = {'yule_log': ['yule_log.ico']},
+    package_data={'yule_log': ['yule_log.ico']},
     license='MIT License',
     author='Scott Doucet',
     author_email='duroktar@gmail.com',
@@ -45,6 +47,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     entry_points={
           'console_scripts': [
