@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sh docker-build.sh
+sh docker-run.sh
