@@ -4,7 +4,7 @@ venv/*
 venv35/*
 venv36/*
 
-*-docker.zip
+*-docker*.zip
 *.pyc
 *.pyo
 
