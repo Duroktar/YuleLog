@@ -1,30 +1,36 @@
-YuleLog
-=======
+# YuleLog
+
 **Have yourself a Merry Terminal Christmas**
 
 ![logo](https://github.com/Duroktar/YuleLog/blob/master/yule_log/screenshot.png)
 
-Overview
---------
+## Overview
+
 Yule Log Fireplace with a retro twist!
 
  - Restart the snowfall by pressing enter. 
 
  - Press `x` to stop the program.
 
-Tested with Python 2.7 and 3.5 on Linux and Windows.
+Comes with a dockerized version for easy install.
 
  - **Made with Asciimatics!**
 
  - **WORKS BEST IN FULL SCREEN**
 
-Installation / Usage
---------------------
+## Installation
 
-To install use pip:
+If you have docker on linux/mac (recommended):
+
+    $ git clone https://github.com/Duroktar/YuleLog.git
+    $ cd YuleLog/
+    $ cp YuleLog.sh ~/bin/YuleLog
+
+-------
+
+Or install use pip:
 
     $ pip install YuleLog
-
 
 Or clone the repo:
 
@@ -32,18 +38,19 @@ Or clone the repo:
     
     $ python setup.py install
 
-Example
+> Tested for Python v[2.7, 3.5] on Linux, Mac, and Windows.
+
 -------
 
-Run directly from the command line (thanks to setup.py entry script)
+## Usage / Run Program
+
+Run directly from the command line (for docker, pip, and/or manual builds)
 
     $ YuleLog
-    
-Or as a python module
+
+If installed with pip or built manually you can also run it as a python module
 
     $ python -m yule_log
-
-
 
 Changes
 -------
@@ -55,8 +62,6 @@ Version 0.0.2:
  
 Version 0.0.1:
  - First release
-
-
 
 Credits & thanks
 ----------------

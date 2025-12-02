@@ -39,11 +39,7 @@ def yule_log(screen):
     screen_height = screen.height
     screen_width = screen.width
     log_x = (screen_width // 2) - HALF_LOG_LENGTH
-    log_y = (screen_height // 2) + HALF_LOG_HEIGHT
-    if screen_height < 30:
-        log_y = screen_height // 3
-    elif screen_height < 48:
-        log_y = screen_height // 2
+    log_y = (screen_height) - LOG_HEIGHT
 
     scenes = []
 

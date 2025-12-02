@@ -1,21 +1,13 @@
-.vscode/*
-build/*
-dist/*
-testenv/*
-testenv2/*
+build
+dist
 venv/*
 venv35/*
 venv36/*
-xmas_app/*
 
+*-docker*.zip
 *.pyc
 *.pyo
-*.ico
-installer.cfg
 
-YuleLog.egg-info/*
+YuleLog.egg-info
 
-manage.py
-
-yule_log/__pycache__/*
-
+yule_log/__pycache__
